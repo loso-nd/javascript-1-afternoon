@@ -8,25 +8,25 @@ var myName = " Go hard or go home"
 
 //Create a variable called myAge that is a number data type
 
-//Code here
+var myAge = 28;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
-//Code here
+var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
-//Code here
+var greatestFear;
 
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
-//Code here
+var devMountainGoal = null;
 
 //////////////////PROBLEM 6////////////////////
 
@@ -35,21 +35,35 @@ var myName = " Go hard or go home"
 //greeting should return the string "Hello, "
 //plus the value of the name parameter.
 
-//Code here
+function greeting (name){
+  if (name){
+    return "Hello, Trogdor"
+  } else {
+    return "Hello, " + name;
+  }
+  
+}
 
 //////////////////PROBLEM 7////////////////////
 
 //Write a function expression called newGreeting.
 //Give it the same functionality as the function greeting in Problem 6.
 
-//Code Here
+var newGreeting = function (name){
+  if (name){
+    return "Hello, Trogdor"
+  } else {
+    return "Hello, " + name;
+  }
+  
+}
 
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
-//Code Here
+var groceries = ['apples', 'milk', 'eggs', 'bread']
 
 //////////////////PROBLEM 9////////////////////
 
@@ -58,12 +72,16 @@ var myName = " Go hard or go home"
 //name (a string), color (a string), age (a number),
 //and goodBoy (a boolean).
 
-//Code Here
+var dog = {};
+    dog.name = "Daston";
+    dog.color = "spotted";
+    dog.age = 1;
+    dog.goodBoy = true;
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
-//Code Here
+var devMountainClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
